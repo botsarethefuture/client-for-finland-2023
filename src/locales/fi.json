@@ -1,0 +1,352 @@
+{
+    "elements": {
+        "friends-invite-modal": {
+            "heading": "Kutsu ystäviä",
+            "description": "Kutsu ystäväsi yhteiseen istuntoon, jossa kaikki näkevät toistensa vastaukset reaaliajassa.",
+            "form": {
+                "name": {
+                    "label": "Nimesi / lempinimesi",
+                    "description": "Anna nimesi, jotta ystäväsi voivat tunnistaa sinut. Voit käyttää myös lempinimeä."
+                }
+            },
+            "introduction": {
+                "heading": "Mikä on jaettu istunto?",
+                "explanation": "[\"Jaetun istunnon avulla voit kokea vaalikompassin ystävien kanssa. Yksi henkilö kutsuu muut jaettuun istuntoon. Kun kaikki ovat liittyneet, jokainen voi käyttää vaalikompassia normaalisti. Mutta puolueiden lisäksi voitte nyt myös nähdä toistenne vastaukset ja aloittaa keskustelun.\"]]."
+            },
+            "security": {
+                "heading": "Ovatko vastaukseni turvallisia?",
+                "explanation": "['Kyllä! Vastauksesi vaihdetaan suoraan laitteiden välillä suojatun yhteyden kautta. Palvelin auttaa laitteita löytämään itsensä Internetistä - vastauksiasi ei kuitenkaan lähetetä palvelimen kautta, vaan suoraan laitteesta toiseen.\"]]"
+            },
+            "registration": {
+                "heading": "Pitääkö minun rekisteröityä, jotta voin käyttää tätä toimintoa?",
+                "explanation": "['Rekisteröintiä ei tarvita. Sinun tarvitsee vain kirjoittaa nimesi ja voit liittyä istuntoon.']]"
+            },
+            "cancel": "Peruuta",
+            "confirm": "Avoin istunto"
+        },
+        "friends-join-modal": {
+            "heading": "Liity ystäviin",
+            "description": "Ota yhteys ystäviisi yhteisessä istunnossa ja näe kaikkien vastaukset reaaliajassa.",
+            "form": {
+                "name": {
+                    "label": "Nimesi / lempinimesi",
+                    "description": "Anna nimesi, jotta ystäväsi voivat tunnistaa sinut. Voit käyttää myös lempinimeä."
+                },
+                "join": {
+                    "label": "Ystävän laite",
+                    "description": "Liity jaettuun istuntoon syöttämällä istuntoa isännöivän henkilön laitetunnus."
+                }
+            },
+            "introduction": {
+                "heading": "Mikä on jaettu istunto?",
+                "explanation": "[\"Jaetun istunnon avulla voit kokea vaalikompassin ystävien kanssa. Yksi henkilö kutsuu muut jaettuun istuntoon. Kun kaikki ovat liittyneet, jokainen voi käyttää vaalikompassia normaalisti. Mutta puolueiden lisäksi voitte nyt myös nähdä toistenne vastaukset ja aloittaa keskustelun.\"]]."
+            },
+            "security": {
+                "heading": "Ovatko vastaukseni turvallisia?",
+                "explanation": "['Kyllä! Vastauksesi vaihdetaan suoraan laitteiden välillä suojatun yhteyden kautta. Palvelin auttaa laitteita löytämään itsensä Internetistä - vastauksiasi ei kuitenkaan lähetetä palvelimen kautta, vaan suoraan laitteesta toiseen.\"]]"
+            },
+            "registration": {
+                "heading": "Pitääkö minun rekisteröityä, jotta voin käyttää tätä toimintoa?",
+                "explanation": "['Rekisteröintiä ei tarvita. Sinun tarvitsee vain kirjoittaa nimesi ja voit liittyä istuntoon.']]"
+            },
+            "cancel": "Peruuta",
+            "confirm": "Liity"
+        },
+        "friends-list": {
+            "heading": "Liitetyt laitteet",
+            "empty": "Isännän on hyväksyttävä pyyntösi liittyä istuntoon.",
+            "host": "Isäntä"
+        },
+        "friends-status-modal": {
+            "heading": "Jaettu istunto",
+            "mode": {
+                "INACTIVE": {
+                    "heading": "Ei kytketty",
+                    "text": "Sinulla ei ole yhteyttä kehenkään. Liity olemassa olevaan istuntoon tai järjestä oma istuntosi päävalikon kautta."
+                },
+                "GUEST": {
+                    "heading": "Vieras",
+                    "text": "Osallistut jaettuun istuntoon, jota isännöi joku muu."
+                },
+                "HOST": {
+                    "heading": "Isäntä",
+                    "text": "Sinä olet tämän istunnon isäntä. Kutsu ystäväsi käyttämällä laitetunnustasi ja hyväksy heidän pyyntönsä liittyä."
+                }
+            },
+            "own-peer-id": {
+                "label": "Laitteesi",
+                "description": "Tämä on laitetunnuksesi. Ystäviesi on syötettävä tämä omaan laitteeseensa, jotta he voivat muodostaa yhteyden jaettuun istuntoon."
+            }
+        },
+        "guests-list": {
+            "heading": "Liitetyt laitteet",
+            "empty": "Kukaan ei ole vielä liittynyt istuntoon.",
+            "accept": "Hyväksy",
+            "status": {
+                "connecting": "Yhdistäminen",
+                "connected": "Yhdistetty",
+                "disconnected": "Irrotettu"
+            }
+        },
+        "guide-button": {
+            "start": "Mennään.",
+            "introduction": "Lue, miten tämä toimii",
+            "first-thesis": "Aloita ensimmäisestä teesistä",
+            "thesis": "Siirry seuraavaan opinnäytetyöhön",
+            "party": "Valitse osapuolet",
+            "match": "Katso tuloksesi",
+            "compare": "Lue lausunnot"
+        },
+        "kiosk-mode": {
+            "heading": "Pitäisikö meidän tehdä nollaus?",
+            "description": "Vaalikompassi nollataan nyt ja kaikki vastauksesi poistetaan. | Vaalikompassi nollataan {count} sekunnin kuluttua ja kaikki vastauksesi poistetaan. | Vaalikompassi nollautuu {luku} sekunnin kuluttua ja kaikki vastauksesi poistetaan.",
+            "reset": "Nollaa nyt",
+            "resume": "Ei vielä!"
+        },
+        "language-switch": {
+            "button": "Kielet",
+            "heading": "Kielet",
+            "description": "Valitse haluamasi kieli."
+        },
+        "main-navigation": {
+            "menu": "Valikko",
+            "thesis": "Opinnäytetyö {count}",
+            "links": {
+                "compass": "Vaalikompassi",
+                "languages": "Vaihda kieltä",
+                "friends-join": "Liity ystäviin",
+                "friends-invite": "Kutsu ystäviä",
+                "reset": "Nollaa",
+                "home": "Aloita",
+                "introduction": "Johdanto",
+                "theses": "Opinnäytetyöt",
+                "evaluation": "Arviointi",
+                "party": "Puolueen valinta",
+                "match": "Tulos",
+                "compare": "Lausunnot",
+                "about": "Tietoja"
+            }
+        },
+        "open-election-compass-logo": {
+            "alt": "Vaalikompassin logo"
+        },
+        "show-more": {
+            "show": "Näytä lisää",
+            "hide": "piilota"
+        }
+    },
+    "views": {
+        "home": {
+            "home": {
+                "role-aria": "Vaalikompassi"
+            },
+            "start": {
+                "section": {
+                    "banner-aria": "Alkuosa"
+                }
+            },
+            "theses": {
+                "important-button": {
+                    "important": "Tärkeää minulle",
+                    "important-aria": "Tärkeä - merkitsee tämän opinnäytetyön tärkeäksi sinulle.",
+                    "too-many-important": "Opinnäytetöitä on vain hyvin vähän, joten et voi merkitä niitä tärkeiksi. | Merkitse korkeintaan 1 opinnäytetyö tärkeäksi, jotta saat mielekkään tuloksen! | Merkitse enintään {luku} opinnäytetyötä tärkeäksi saadaksesi mielekkään tuloksen!"
+                },
+                "skip-button": {
+                    "skip": "En tiedä.",
+                    "skip-aria": "Skip - ohittaa tämän tutkielman, joten sitä ei lasketa mukaan.",
+                    "too-many-skip": "Opinnäytetöitä on vain hyvin vähän, joten et voi jättää yhtäkään väliin. | Ohita korkeintaan 1 opinnäytetyö saadaksesi mielekkään tuloksen! | Ohita enintään {luku} opinnäytetyötä saadaksesi mielekkään tuloksen!"
+                },
+                "statement-text": {
+                    "thesis": "Opinnäytetyö {count} / {yhteensä}",
+                    "statement-aria": "Opinnäytetyö on: '{väite}'.",
+                    "quoteStart": "'",
+                    "quoteEnd": "'",
+                    "statement-badge": {
+                        "skip": "Jätit tämän väliin.",
+                        "skip-aria": "Jätit tämän tutkielman väliin.",
+                        "important": "Merkitsit tämän tärkeäksi",
+                        "important-aria": "Merkitsit tämän opinnäytetyön tärkeäksi."
+                    }
+                },
+                "statement-wrapper": {
+                    "role-aria": "Opinnäytetyö",
+                    "region-aria": "Opinnäytetyö {count} of {total}"
+                }
+            },
+            "party": {
+                "party-item": {
+                    "party-aria": "Puolue '{puolue}' - klikkaa tästä valitaksesi tai poistaaksesi tämän puolueen valinnan vertailua varten."
+                },
+                "section": {
+                    "heading": "Valitse osapuolet, joita haluat vertailla",
+                    "instruction": "Valitse osapuolet, joihin haluat verrata omia päätöksiäsi. Voit valita niin monta osapuolta kuin haluat, mutta sinun on valittava vähintään kaksi. Seuraava luettelo on esitetty samassa järjestyksessä kuin puolueet esiintyvät äänestyslipussa.",
+                    "proceed": "Valmis"
+                }
+            },
+            "match": {
+                "match-display": {
+                    "match-aria": "Puolueen '{puolue}' osumasi on {prosenttiosuus}. %"
+                },
+                "section": {
+                    "heading": "Tuloksesi",
+                    "explanation": "Tässä taulukossa kuvataan, kuinka paljon sinä ja osapuolet olette sopineet edellä mainituista teeseistä. Mitä suurempi prosenttiosuus, sitä enemmän kantanne vastaavat toisiaan. Muistakaa, että tämä ei ole äänestyssuositus, vaan orientaatio- ja keskusteluväline."
+                }
+            },
+            "compare": {
+                "additional-analysis": {
+                    "heading": "Tilastot",
+                    "buttons": {
+                        "close": "Lopeta",
+                        "start": "Mennään.",
+                        "proceed": "Lähetä ja seuraava",
+                        "open-questionnaire": "Avaa kysely uudessa välilehdessä"
+                    },
+                    "start": "Kiitos jakamisesta! Tietoistasi tulee tilastojen kannalta arvokkaampia, jos jaat hieman enemmän taustatietoja itsestäsi - auttaisitko vähän enemmän? Vastaa niin moneen kysymykseen kuin haluat!",
+                    "help-even-more": "Kiitos paljon! Haluaisitko auttaa vielä enemmän? Voit vastata tarkempiin kysymyksiin täällä:",
+                    "thanks": "Kiitos jakamisesta! Nuo olivat kaikki kysymykset - autoitte meitä paljon! Klikkaa 'Quit' palataksesi takaisin tuloksiin.",
+                    "fields": {
+                        "age": {
+                            "name": "Ikä",
+                            "label": "Kuinka vanha olet nyt?",
+                            "placeholder": "25",
+                            "description": "Ikäsi on tärkeää, jotta voit tutkia, mitä eri ikäryhmiin kuuluvat ihmiset ajattelevat teeseistä ja puolueista."
+                        },
+                        "gender": {
+                            "name": "Sukupuoli",
+                            "label": "Mikä on sukupuolesi?",
+                            "options": {
+                                "female": "nainen",
+                                "diverse": "eri",
+                                "male": "mies",
+                                "none": "ei vastausta"
+                            }
+                        },
+                        "education": {
+                            "name": "Pätevyys",
+                            "label": "Mikä on korkein koulutuksesi?",
+                            "options": {
+                                "student": "Tällä hetkellä opiskelija",
+                                "nothing": "Ei täydellistä pätevyyttä",
+                                "lower": "Middle School tai vastaava",
+                                "higher": "Lukio tai vastaava",
+                                "academic": "Akateeminen",
+                                "none": "ei vastausta"
+                            }
+                        },
+                        "party": {
+                            "name": "Puolue",
+                            "label": "Jos vaalit olisivat tänään, ketä äänestäisit?",
+                            "options": {
+                                "other": "Muut",
+                                "non-voter": "En äänestä",
+                                "not-eligible": "En ole tukikelpoinen",
+                                "not-sure": "En ole varma.",
+                                "none": "ei vastausta"
+                            }
+                        }
+                    }
+                },
+                "analysis-banner": {
+                    "heading": "Haluatko lahjoittaa vastauksesi tieteelle?",
+                    "explanation": "Voit auttaa {jotakuta} ymmärtämään näitä vaaleja paremmin lahjoittamalla vastauksesi ja tuloksesi tieteelliseen tutkimukseen. Tallennamme vain nimettömät tiedot, joita emme voi jäljittää sinuun.",
+                    "send": "Lähetä tilastotiedot nyt",
+                    "close": "Ei, jatka lukemista"
+                },
+                "answer": {
+                    "skip": {
+                        "status-text": "tuntematon",
+                        "content": "Puolue \"{party}\" ei antanut vastauksia tai ottanut kantaa tähän väitteeseen."
+                    },
+                    "empty": {
+                        "content": "Puolue \"{puolue}\" ei ole antanut mitään lausuntoa, jossa se selittäisi kantaansa tähän väitteeseen."
+                    }
+                },
+                "section": {
+                    "heading": "Heidän vastauksensa",
+                    "explanation": "Osapuolet esittävät yleensä perusteluita jokaisesta väittämästä. Aina ei ole selvää, miksi puolue on tietyllä kannalla, joten on suositeltavaa lukea nämä lausunnot tai asianomaiset vaaliohjelmat.",
+                    "region-aria": "Opinnäytetyö {count} of {total}"
+                },
+                "friends-position": {
+                    "answer-aria": "{name}: {position}",
+                    "skip": "Ohitettu"
+                },
+                "kiosk-mode-hint": {
+                    "heading": "Nollaa, kun olet valmis",
+                    "explanation": "Lue ja vertaile vastauksia alla oleviin väittämiin kaikessa rauhassa. Kun olet valmis, voit nollata vaalikompassin täällä seuraavaa henkilöä varten. Tämä poistaa myös omat vastauksesi. Vihje: löydät nollauspainikkeen myös valikosta. Kiitos!",
+                    "reset": "Nollaa"
+                }
+            },
+            "footer": {
+                "section": {
+                    "explanation": "Tämä vaalikompassi perustuu ilmaiseen avoimen lähdekoodin projektiin {0}.",
+                    "oec": "OpenElectionCompass"
+                }
+            }
+        }
+    },
+    "validation": {
+        "names": {
+            "name": "Nimi",
+            "remote-peer-id": "Ystävän laite"
+        },
+        "fields": {
+            "name": {
+                "min": "Anna nimi.",
+                "regex": "Vain kirjaimet, numerot ja välilyönnit, ei erikoismerkkejä.",
+                "required": "Anna nimi."
+            }
+        }
+    },
+    "algorithm": {
+        "options": {
+            "strongly-approve": {
+                "button": "Hyväksyn voimakkaasti",
+                "button-aria": "Hyväksyn vahvasti - klikkaa tästä hyväksyäksesi tämän opinnäytetyön vahvasti!",
+                "badge": "Hyväksyit vahvasti",
+                "badge-aria": "Hyväksyitte tämän opinnäytetyön voimakkaasti.",
+                "status": "hyväksyy voimakkaasti",
+                "answer-aria": "Puolue \"{puolue}\" hyväksyy voimakkaasti tämän väitteen seuraavalla vastauksella: {vastaus}"
+            },
+            "approve": {
+                "button": "Hyväksy",
+                "button-aria": "Hyväksy - hyväksy tämä opinnäytetyö klikkaamalla tästä!",
+                "badge": "Hyväksyit",
+                "badge-aria": "Hyväksyitte tämän opinnäytetyön.",
+                "status": "hyväksyy",
+                "answer-aria": "Puolue \"{puolue}\" hyväksyy tämän väitteen seuraavalla vastauksella: {vastaus}"
+            },
+            "neutral": {
+                "button": "Neutraali",
+                "button-aria": "Neutraali - klikkaa tästä pysyäksesi neutraalina tämän opinnäytetyön suhteen!",
+                "badge": "Sinä olet neutraali",
+                "badge-aria": "Olet neutraali tämän teesin suhteen.",
+                "status": "neutraali",
+                "answer-aria": "Puolue \"{puolue}\" suhtautuu neutraalisti tähän väitteeseen ja antaa seuraavan vastauksen: {vastaus}"
+            },
+            "partly": {
+                "button": "Osittain",
+                "button-aria": "Osittain - klikkaa tästä, jos olet osittain samaa mieltä tämän teesin kanssa!",
+                "badge": "Olit osittain samaa mieltä",
+                "badge-aria": "Olit osittain samaa mieltä tämän teesin kanssa.",
+                "status": "osittain",
+                "answer-aria": "Puolue \"{puolue}\" tukee osittain tätä väitettä ja antaa seuraavan vastauksen: {vastaus}"
+            },
+            "reject": {
+                "button": "Hylkää",
+                "button-aria": "Hylkää - klikkaa tästä hylätäksesi tämän opinnäytetyön!",
+                "badge": "Sinä hylkäsit",
+                "badge-aria": "Te hylkäsitte tämän teesin.",
+                "status": "hylkää",
+                "answer-aria": "Puolue \"{puolue}\" hylkää tämän väitteen seuraavalla vastauksella: {vastaus}"
+            },
+            "strongly-reject": {
+                "button": "Hylkää ehdottomasti",
+                "button-aria": "Hylkää jyrkästi - klikkaa tästä hylätäksesi tämän teesin jyrkästi!",
+                "badge": "Hylkäsitte jyrkästi",
+                "badge-aria": "Hylkäsitte tämän teesin jyrkästi.",
+                "status": "hylkää jyrkästi",
+                "answer-aria": "Puolue \"{puolue}\" torjuu tämän väitteen jyrkästi seuraavalla vastauksella: {vastaus}"
+            }
+        }
+    }
+}
