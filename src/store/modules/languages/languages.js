@@ -17,6 +17,7 @@ const officialLanguages = [
   'hi',
   'hr',
   'hu',
+  'fi',
   'id',
   'it',
   'ja',
